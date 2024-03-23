@@ -1,0 +1,43 @@
+#container{
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(12, 150px);
+  
+}
+
+.main-header{
+  border: solid  rgb(244, 242, 242) 2px;
+  border-radius: 4px;
+  background-color: aquamarine;
+  padding: 10px;
+  text-align: left;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+#nv{
+  grid-row-start: 1;
+  grid-row-end: 5;
+}
+
+#head{
+  grid-column-start: 2;
+  grid-column-end: 6;
+}
+
+#art{
+  grid-row-start: 2;
+  grid-row-end: 4;
+
+  grid-column-start: 2;
+  grid-column-end: 5;
+}
+
+#ad{
+  grid-row-start: 2;
+  grid-row-end: 4;
+}
+
+#foot{
+  grid-column-start: 2;
+  grid-column-end: 6;
+}
